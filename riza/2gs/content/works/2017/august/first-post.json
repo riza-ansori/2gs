@@ -1,0 +1,12 @@
+{
+  "title": "First Work",
+  "date": "2017-08-02T00:00:00.000Z",
+  "bodyContent": "First Work!\n\nCheckout [github to see my other projects](github.com/tInsfilo.com)",
+  "bodyHtml": "<p>First Work!</p>\n<p>Checkout <a href=\"github.com/tInsfilo.com\">github to see my other projects</a></p>\n",
+  "preview": "First Work!\n\nCheckout github to see my other projects",
+  "dir": "content/works/2017/august",
+  "base": "first-post.json",
+  "ext": ".json",
+  "sourceBase": "first-post.md",
+  "sourceExt": ".md"
+}

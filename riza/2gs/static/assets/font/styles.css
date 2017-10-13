@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "untitled-font-2";
+  src:url("fonts/untitled-font-2.eot");
+  src:url("fonts/untitled-font-2.eot?#iefix") format("embedded-opentype"),
+    url("fonts/untitled-font-2.woff") format("woff"),
+    url("fonts/untitled-font-2.ttf") format("truetype"),
+    url("fonts/untitled-font-2.svg#untitled-font-2") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "untitled-font-2" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "untitled-font-2" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-brand-equity:before {
+  content: "\61";
+}
+.icon-brand-identity:before {
+  content: "\62";
+}
+.icon-brand-personality:before {
+  content: "\63";
+}
+.icon-brand-positioning:before {
+  content: "\64";
+}
+.icon-brand-promise:before {
+  content: "\65";
+}
+.icon-logo-is:before {
+  content: "\66";
+}
+.icon-look-and-feel:before {
+  content: "\67";
+}
+.icon-icon-service-brand-design:before {
+  content: "\69";
+}
+.icon-icon-service-brand-consultancy:before {
+  content: "\68";
+}
+.icon-logo-insfilo:before {
+  content: "\6a";
+}
+.icon-icon-inquiry:before {
+  content: "\6b";
+}
+.icon-icon-you-white:before {
+  content: "\6c";
+}
+.icon-button-do:before {
+  content: "\6d";
+}
+.icon-logo-2gs-01:before {
+  content: "\6e";
+}
+.icon-television:before {
+  content: "\6f";
+}
+.icon-television-fill:before {
+  content: "\70";
+}
+.icon-people:before {
+  content: "\71";
+}
+.icon-location-arrow:before {
+  content: "\72";
+}
+.icon-vr:before {
+  content: "\73";
+}
+.icon-img:before {
+  content: "\74";
+}
+.icon-img-fill:before {
+  content: "\75";
+}
+.icon-dolar:before {
+  content: "\76";
+}
+.icon-check:before {
+  content: "\77";
+}
+.icon-lock:before {
+  content: "\78";
+}
+.icon-square:before {
+  content: "\79";
+}

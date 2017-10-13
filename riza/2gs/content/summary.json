@@ -1,0 +1,113 @@
+{
+  "fileMap": {
+    "content/posts/2017/august/sticky-example.json": {
+      "title": "Sticky Example",
+      "date": "2017-08-25T00:00:00.000Z",
+      "preview": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum",
+      "dir": "content/posts/2017/august",
+      "base": "sticky-example.json",
+      "ext": ".json",
+      "sourceBase": "sticky-example.md",
+      "sourceExt": ".md"
+    },
+    "content/config-works.json": {
+      "siteTitle": "Works",
+      "description": "A portfolio using works",
+      "stylesheets": [
+        "https://unpkg.com/tachyons@4.8.0/css/tachyons.min.css"
+      ],
+      "topLinks": [
+        {
+          "text": "Homepage",
+          "href": "/"
+        },
+        {
+          "text": "Works",
+          "href": "/works"
+        }
+      ],
+      "backgroundClass": "bg-dark-blue",
+      "copyright": "Insfilo.com",
+      "siteId": "",
+      "dir": "content",
+      "base": "config-works.json",
+      "ext": ".json",
+      "sourceBase": "config-works.md",
+      "sourceExt": ".md"
+    },
+    "content/posts/2017/august/we-help-company.json": {
+      "title": "We Help Companies and Companions",
+      "date": "2017-08-26T00:00:00.000Z",
+      "preview": "We can give your company superpowers to do things that they never thought possible. Let us delight your",
+      "dir": "content/posts/2017/august",
+      "base": "we-help-company.json",
+      "ext": ".json",
+      "sourceBase": "we-help-company.md",
+      "sourceExt": ".md"
+    },
+    "content/works/2017/august/dilinger-online-generator.json": {
+      "title": "Dillinger - Online Markdown Editor",
+      "date": "2017-08-24T00:00:00.000Z",
+      "preview": "Dillinger\n\nDillinger is a cloud-enabled, mobile-ready, offline-storage, AngularJS powered HTML5 Markdown",
+      "dir": "content/works/2017/august",
+      "base": "dilinger-online-generator.json",
+      "ext": ".json",
+      "sourceBase": "dilinger-online-generator.md",
+      "sourceExt": ".md"
+    },
+    "content/works/2017/august/first-post.json": {
+      "title": "First Work",
+      "date": "2017-08-02T00:00:00.000Z",
+      "preview": "First Work!\n\nCheckout github to see my other projects",
+      "dir": "content/works/2017/august",
+      "base": "first-post.json",
+      "ext": ".json",
+      "sourceBase": "first-post.md",
+      "sourceExt": ".md"
+    },
+    "content/config-blog.json": {
+      "siteTitle": "Next Blog",
+      "description": "A blog built using next and processmd",
+      "stylesheets": [
+        "https://unpkg.com/tachyons@4.8.0/css/tachyons.min.css"
+      ],
+      "topLinks": [
+        {
+          "text": "Homepage",
+          "href": "/"
+        },
+        {
+          "text": "Blog",
+          "href": "/blog"
+        }
+      ],
+      "backgroundClass": "bg-dark-gray",
+      "copyright": "Insfilo.com",
+      "siteId": "",
+      "dir": "content",
+      "base": "config-blog.json",
+      "ext": ".json",
+      "sourceBase": "config-blog.md",
+      "sourceExt": ".md"
+    },
+    "content/posts/2017/august/first-post.json": {
+      "title": "First post",
+      "date": "2017-08-01T00:00:00.000Z",
+      "preview": "First post!\n\nCheckout github to see my other projects",
+      "dir": "content/posts/2017/august",
+      "base": "first-post.json",
+      "ext": ".json",
+      "sourceBase": "first-post.md",
+      "sourceExt": ".md"
+    }
+  },
+  "sourceFileArray": [
+    "content/config-blog.md",
+    "content/config-works.md",
+    "content/posts/2017/august/first-post.md",
+    "content/posts/2017/august/sticky-example.md",
+    "content/posts/2017/august/we-help-company.md",
+    "content/works/2017/august/dilinger-online-generator.md",
+    "content/works/2017/august/first-post.md"
+  ]
+}
