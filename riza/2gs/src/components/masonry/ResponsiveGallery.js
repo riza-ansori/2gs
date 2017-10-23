@@ -70,6 +70,8 @@ export default class ResponsiveGallery extends Component {
 					<a href={obj.link} className='grid-images'><img  src={obj.thumbnail} className={`gallery-img`}/>
 					<div className='wrapper-text-hover'>
 						<p><h2 className='title-img'>{obj.title}</h2><span>{obj.cat}</span></p>
+						<div className='overlay-left-bottom'></div>
+						<div className='overlay-left-top'></div>
 					</div>
 					</a>
 				</div>
