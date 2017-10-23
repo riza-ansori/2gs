@@ -11,7 +11,7 @@ const animationStyles = props => {
 		'0%': { transform: `scale(1.01)` },
 		'100%': { transform: `scale(0.99)` }
 	})
-	return {animation: `${bounce} 0.2s infinite ease-in-out alternate`}
+	return {animation: `${bounce} 0.2s ease-in-out alternate`}
 }
 
 const AnimatedDiv = glamorous.div(animationStyles)
@@ -56,7 +56,7 @@ class MenuBlog extends React.Component {
 
   componentDidMount() {
     document.addEventListener('scroll', () => {
-      this.setState({ isTop: window.scrollY < 100 })
+      this.setState({ isTop: window.scrollY < 200 })
     });
   }
   render() {

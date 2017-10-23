@@ -38,19 +38,7 @@ function Hero(props) {
           <h4 className="normal o-70 ma0 pt2 pb3 ph1">
             {props.subtitle}
           </h4>
-          <div>
-            {props.topLinks && props.topLinks.length > 0 && (
-              props.topLinks.map((link, i) => {
-                return (
-                  <Link href={link.href} key={i}>
-                    <a className="dib f6 white no-underline pa1 ma1" key={i}>
-                      {link.text}
-                    </a>
-                  </Link>
-                )
-              })
-            )}
-          </div>
+       
         </div>
       </div>
     </div>
