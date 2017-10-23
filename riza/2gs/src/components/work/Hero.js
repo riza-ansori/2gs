@@ -26,7 +26,6 @@ function Hero(props) {
   return (
     <div>
       <HeroDiv>
-      <MenuWorks />
     <div className={`relative tc ${props.backgroundClass}`}>
       <div className="mw7 center white pv4">
         <div className="pv4">
