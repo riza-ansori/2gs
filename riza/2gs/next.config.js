@@ -28,10 +28,13 @@ module.exports = {
 
     return Object.assign({}, posts, {
       '/': { page: '/' },
-      '/about-us': { page: '/about-us' },
+      '/about': { page: '/about' },
       '/contact': { page: '/contact' },
       '/works': { page: '/works' },
-      '/blog': { page: '/blog' }      
+      '/blog': { page: '/blog' },
+      '/portfolio': { page: '/portfolio' },  
+      '/details': { page: '/details' },            
+      '/services': { page: '/services' },                  
     })
   }
 }
