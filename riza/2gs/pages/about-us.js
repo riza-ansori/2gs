@@ -1,12 +1,7 @@
 import Layout from '../src/components/Layout'
 import glamorous from 'glamorous'
+
 import {
-    Button,
-    Container,
-    Divider,
-    Grid,
-    Header,
-    Icon,
     Image,
     List, 
     Menu,
@@ -17,11 +12,8 @@ import FaFacebook from 'react-icons/lib/fa/facebook'
 import FaTwitter from 'react-icons/lib/fa/twitter'
 
 const mediaQueries = {
-    pc: '@media screen and (max-width: 1024px)',
-    tablet: '@media screen and (max-width: 767px)',
-    phone: '@media screen and (max-width: 600px)',
-    phones:'@media screen and (max-width: 505px)',
-    phone1: '@media screen and (max-width: 500px)',
+	phone: '@media only screen and (max-width: 600px)',
+    phone1: '@media only screen and (max-width: 500px)',
 }
 
 const MyDiv = glamorous.div(

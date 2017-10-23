@@ -85,7 +85,8 @@ const MyDiv = glamorous.div(
     },
     '& textarea:hover, & input:hover, & textarea:active, & input:active, & textarea:focus, & input:focus, & button:focus, & button:active, & button:hover, & label:focus, & .btn:active, & .btn.active': {
         outline: '0px !important',
-    }
+    },
+    
 },)
 export default () => (
 <MyDiv>
@@ -96,7 +97,8 @@ export default () => (
                     <h1 className="black-h1 header-text last" style={{textAlign:'center'}}>
                         Get in touch.
                     </h1>
-                    <p>Hire us or ask us questions about our services. We also welcome you with coconut water in case you’re travelling in Bali.</p>
+                    <p>Hire us or ask us questions about our services.</p>
+                    <p>We also welcome you with coconut water in case you’re travelling in Bali.</p>
                 </div>
             </div>
             <div className='sections form_section'>
