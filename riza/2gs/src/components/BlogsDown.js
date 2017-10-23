@@ -30,6 +30,7 @@ class BlogsDown extends React.Component {
       this.setState({ isTop: window.scrollY < 100 })
     });
   }
+  
   render() {
     return (
         <div id='josss'>

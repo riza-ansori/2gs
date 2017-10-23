@@ -17,14 +17,13 @@ import glamorous from 'glamorous'
 import Scrollchor from 'react-scrollchor'
 import Counter from './counter.js'
 
-var moment = require('moment');
-const years = moment().format('YYYY');
 const mediaQueries = {
 	pc: '@media screen and (max-width: 1024px)',
+	t768: '@media screen and (max-width: 768px)',
 	tablet: '@media screen and (max-width: 767px)',
-	phone680: '@media screen and (max-width: 680px)',
-	phone: '@media screen and (max-width: 600px)',
-    phone1: '@media screen and (max-width: 500px)',
+	hp_680: '@media screen and (max-width: 680px)',
+	hp_600: '@media screen and (max-width: 600px)',
+    hp_500: '@media screen and (max-width: 500px)',
 }
 
 const MyDiv = glamorous.div(
@@ -34,19 +33,48 @@ const MyDiv = glamorous.div(
         backgroundColor: '#222221',
     },
     '& p.copy-right': {
-        width: '80%',
+        width: '88%',
         margin: 'auto',
         color: '#a09ea1',
+        maxWidth: '1280px',
+        padding: '0 75px',
         [mediaQueries.tablet]:{
-            width:'88%'
+            width:'88%',
+            padding: '0 50px',
         },
+        [mediaQueries.hp_600]:{
+            padding:'0',
+        }
     },
-    '& .last':{
+    '& .last, & .ui.inverted.link.list .item.white-link.desk-list.last':{
         marginTop:'15px',
+        color:'#fff',
+        fontWeight:'100'
     },
     '& #section-footer':{
         paddingTop:'100px !important',
         paddingBottom:'0',
+        [mediaQueries.hp_500]:{
+            paddingTop:'50px !important',
+        },
+    },
+    '& #footer-container .four.column.row .column:nth-child(3)': {
+        width: '20% !important',
+        [mediaQueries.t768]:{
+            width: '50% !important',
+        },
+        [mediaQueries.hp_500]:{
+            marginBottom:'0 !important',
+        }
+    },
+    '& #footer-container .four.column.row .column:nth-child(4)': {
+        width: '30% !important',
+        [mediaQueries.t768]:{
+            width: '50% !important',
+        },
+        [mediaQueries.hp_500]:{
+            marginBottom:'0 !important',
+        }
     }
 }
 )
@@ -67,10 +95,9 @@ const Footer = () => (
                     </Grid.Column>
                     <Grid.Column>
                         <List link inverted>
-                            <List.Item as='a' href='/about-us'>About</List.Item>
+                            <List.Item as='a' href='/about'>About</List.Item>
                             <List.Item as='a' href='/services'>Services</List.Item>
                             <List.Item as='a' href='/portfolio'>Portfolio</List.Item>
-                            <List.Item as='a' href='/blog'>Blog</List.Item>
                             <List.Item as='a' href='/hire-us'>Hire Us</List.Item>
                         </List>
                     </Grid.Column>
@@ -84,10 +111,10 @@ const Footer = () => (
                     <Grid.Column>
                         <List link inverted>
                             <List.Item className='white-link desk-list'>PT Arc La Belle Media Graphindo</List.Item>
-                            <List.Item as='a' className='grey-link'><span>Alamanda Bali, 5th Floor</span><span>Jl. Bypass Ngurah Rai No.67,</span><span>Kuta Badung - Bali, Indonesia 80361</span></List.Item>
-                            <List.Item className='grey-link desk-list'>+62 361 2003 021</List.Item>
-                            <List.Item className='grey-link desk-list'>+628562888585</List.Item>
-                            <List.Item className='white-link desk-list last'>marketing@2gs.co</List.Item>
+                            <List.Item className='grey-link desk-list hidden'><span>Alamanda Bali, 5th Floor</span><span>Jl. Bypass Ngurah Rai No.67,</span><span>Kuta Badung - Bali, Indonesia 80361</span></List.Item>
+                            <List.Item className='grey-link desk-list hidden'>+62 361 2003 021</List.Item>
+                            <List.Item className='grey-link desk-list hidden'>+628562888585</List.Item>
+                            <List.Item className='white-link desk-list last hidden'>marketing@2gs.co</List.Item>
                             <List.Item as='a' href='tel:+62 361 2003 021' className='grey-link mobile-links'>+62 361 2003 021</List.Item>
                             <List.Item as='a' href='tel:+623612003021' className='grey-link mobile-links'>+62 361 2003 021</List.Item>
                             <List.Item as='a' href='mailto:marketing@2gs.co' className ='white-link mobile-links'>marketing@2gs.co</List.Item>
@@ -101,7 +128,7 @@ const Footer = () => (
                 <Counter/>
         </Menu>
         <Container id='container-copyright'>
-            <p className='copy-right'>&copy; {years}. PT Arc La Belle Media Graphindo. All Rights reserved. </p>
+            <p className='copy-right'>&copy; {(new Date().getFullYear())}. PT Arc La Belle Media Graphindo. All Rights reserved. </p>
         </Container>
     </Segment>
     </MyDiv>
