@@ -1,6 +1,7 @@
 var React = require('react')
+var createClass = require('create-react-class');
 
-var Confirm = React.createClass({
+var Confirm = createClass({
   render: function() {
     return (
       <div className='wrapper-steps' id='step-four'>

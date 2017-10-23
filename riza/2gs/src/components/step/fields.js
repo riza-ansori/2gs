@@ -1,6 +1,7 @@
 var React = require('react')
+var createClass = require('create-react-class');
 
-var Fields = React.createClass({
+var Fields = createClass({
   render: function() {
     return (
       <div className='wrapper-steps'>
@@ -16,7 +17,7 @@ var Fields = React.createClass({
             <textarea type="textarea" ref="message" defaultValue={this.props.fieldValues.message} placeholder='YOUR MESSAGE' />
           </li>
             <li className="form-footer">
-              <button className="ui big button white-btn this-black pull-right" onClick={this.props.submitRegistration}>SEND MESSAGE</button>
+              <a className="ui big button white-btn this-black pull-right" onClick={this.props.submitRegistration}>SEND MESSAGE</a>
             </li>
           </ul>
         </div>

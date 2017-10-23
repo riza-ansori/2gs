@@ -3,6 +3,7 @@ var Fields  = require('./fields.js')
 var Thanks = require('./thanks.js')
 var Confirm = require('./confirm.js')
 var assign        = require('object-assign')
+var createClass = require('create-react-class');
 
 // Idealy, these form values would be saved in another
 // sort of persistence, like a Store via Flux pattern
@@ -12,7 +13,7 @@ var fieldValues = {
   email    : null,
 }
 
-var Form = React.createClass({
+var Form = createClass({
   getInitialState: function() {
     return {
       step : 1
