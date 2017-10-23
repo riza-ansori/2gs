@@ -1,8 +1,9 @@
 var React = require('react')
 import { Icon } from 'semantic-ui-react'
 import MdCheck from 'react-icons/lib/md/check';
+var createClass = require('create-react-class');
 
-var Step5 = React.createClass({
+var Step5 = createClass({
   render: function() {
     return (
       <div className='wrapper-steps' id='step-five'>

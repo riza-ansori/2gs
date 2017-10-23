@@ -1,6 +1,7 @@
 var React = require('react')
+var createClass = require('create-react-class');
 
-var Step4 = React.createClass({
+var Step4 = createClass({
   render: function() {
     return (
       <div className='wrapper-steps' id='step-four'>

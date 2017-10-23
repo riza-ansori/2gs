@@ -1,7 +1,8 @@
 import DropFile from './dropfile.js'
 var React = require('react')
+var createClass = require('create-react-class');
 
-var Step3 = React.createClass({
+var Step3 = createClass({
   render: function() {
     return (
       <div className='wrapper-steps' id='step-three'>

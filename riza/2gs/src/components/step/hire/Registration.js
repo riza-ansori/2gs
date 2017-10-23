@@ -5,6 +5,8 @@ var Step3  = require('./Step3')
 var Step4       = require('./Step4')
 var Step5       = require('./Step5')
 var assign        = require('object-assign')
+var createClass = require('create-react-class');
+
 
 // Idealy, these form values would be saved in another
 // sort of persistence, like a Store via Flux pattern
@@ -18,7 +20,7 @@ var fieldValues = {
   services   : []
 }
 
-var Registration = React.createClass({
+var Registration = createClass({
   getInitialState: function() {
     return {
       step : 1

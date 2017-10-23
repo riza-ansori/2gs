@@ -1,7 +1,9 @@
 var React                   = require('react')
 var getRadioOrCheckboxValue = require('./radiobox-value')
+var createClass = require('create-react-class');
 
-var Step1 = React.createClass({
+
+var Step1 = createClass({
 
   renderOptions: function(type, name, value, index) {
     var isChecked = function() {
