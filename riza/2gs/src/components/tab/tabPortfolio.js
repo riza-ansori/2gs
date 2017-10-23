@@ -27,7 +27,6 @@ const panes = [
   { menuItem: 'ALL', render: () => <Tab.Pane attached={false}><App/></Tab.Pane> },
   { menuItem: 'EXTERIOR', render: () => <Tab.Pane attached={false}><Exterior/></Tab.Pane> },
   { menuItem: 'INTERIOR', render: () => <Tab.Pane attached={false}><Interior/></Tab.Pane> },
-  { menuItem: 'PHOTOGRAPHY', render: () => <Tab.Pane attached={false}><Photography/></Tab.Pane> },
   { menuItem: 'ANIMATION', render: () => <Tab.Pane attached={false}><Animation/></Tab.Pane> },
   { menuItem: 'VR', render: () => <Tab.Pane attached={false}><Virtual/></Tab.Pane> },
 ]
